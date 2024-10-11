@@ -1,0 +1,45 @@
+.box {
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    background-color: rgb(190, 189, 189);
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+nav[aria-label="Main Navigation"] {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(238, 237, 237);
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    place-items: center;
+    margin-top: 0px;
+}
+.large-box {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(43, 41, 41);
+    padding: 20px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: auto;
+    width: 100px;
+    height: auto;
+    background-color: rgb(189, 199, 194);
+    align-items: center;
+}
